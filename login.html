@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+   <link rel="shortcut icon" type="image/jpg" href="assets/sailboat.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A500"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500"/>
+  <link rel="stylesheet" href="./styles/login.css"/>
+</head>
+<body>
+  <form method="GET" action="http://127.0.0.1:3000/addUser">
+<div class="login-p4o">
+  <div class="login-wQK">
+  </div>
+  <img class="log-1-FR1" src="./assets/log-1-ahd.png"/>
+  <input type="text" placeholder="Username" id="uname" class="uname-B3m">
+</input>
+  <input type="password" placeholder="Password" id="pwd" class="pwd-HsV">
+</input>
+  <button onclick="addUser()" class="login-but-cPy">login</button>
+  <p class="signup-nav-J1u">
+    <span class="signup-nav-J1u-sub-0">don’t have an account? </span>
+    <a href="signup.html" class="signup-nav-J1u-sub-1">SignUp</a>
+  </p>
+  <img onclick="view()" class="eye-1-3No" src="./assets/eye-1-kjH.png"/>
+</div>
+</form>
+</body>
+<script>
+  function view(){
+    var x = document.getElementById("pwd");
+  if (x.type === "password") {
+    x.type = "text";
+  }else{
+    x.type = "password";
+  }
+  }
+
+  function addUser() {
+      const name = document.getElementById('uname').value;
+      const password = document.getElementById('pwd').value;
+
+      fetch('/addUser', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, password }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('User added with ID:', data.userId);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    }
+</script>

@@ -1,0 +1,202 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.organize-MYj {
+  width: 110%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.organize-MYj .signup-B1y {
+  width: 100rem;
+  height: 69.3rem;
+  position: absolute;
+  left: 22rem;
+  top: 16.5rem;
+  border: solid 0.4rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+}
+.organize-MYj .e-name-bju {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 25.8rem;
+  top: 32.3rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  font-size: x-large;
+  margin: 0 auto;
+
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .e-date-tj1 {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 25.8rem;
+  top: 42rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .time-Cjh {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 25.8rem;
+  top: 51.7rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .location-K3d {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 25.8rem;
+  top: 60.9rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .organizer-Qqm {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 72.7rem;
+  top: 32.3rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .pwd-Khq {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 72.7rem;
+  top: 42rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .mailid-dCj {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 72.7rem;
+  top: 51.7rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .ph-no-Lsq {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 72.7rem;
+  top: 60.9rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+.organize-MYj .signup-but-Svs {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 49.3rem;
+  top: 73.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9900;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.organize-MYj .signup-but-Svs:hover{
+  color: #ff9900;
+  background-color: #ffffff;
+  border: solid 0.3rem #ff9900;
+}
+.organize-MYj .organize-smH {
+  width: 27.6rem;
+  height: 9rem;
+  position: absolute;
+  left: 26.2rem;
+  top: 19.2rem;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}

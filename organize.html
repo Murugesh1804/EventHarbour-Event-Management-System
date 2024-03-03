@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="assets/sailboat.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>organize</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A500%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500%2C600"/>
+  <link rel="stylesheet" href="./styles/organize.css"/>
+</head>
+<body>
+<div class="organize-MYj">
+  <div class="signup-B1y">
+  </div>
+  <input type="text" placeholder="Event Name" class="e-name-bju">
+</input>
+  <input type="date" placeholder="Date" class="e-date-tj1">
+</input>
+  <input type="time" placeholder="Time" class="time-Cjh">
+</input>
+  <input type="text" placeholder="Location" class="location-K3d">
+</input>
+  <input type="text" placeholder="Organizer Name" class="organizer-Qqm">
+</input>
+  <input type="tel" placeholder="Phone Number" class="pwd-Khq">
+</input>
+  <input type="email" placeholder="mail id" class="mailid-dCj">
+</input>
+  <input type="text" placeholder="Event Name" class="ph-no-Lsq">
+</input>
+  <button onclick="launch()" class="signup-but-Svs">Launch </button>
+  <p class="organize-smH">Organize</p>
+</div>
+</body>
+<script>
+      function addUser() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+
+      fetch('/addUser', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('User added with ID:', data.userId);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    }
+</script>

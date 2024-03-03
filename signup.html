@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="assets/sailboat.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>signup</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A500"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500"/>
+  <link rel="stylesheet" href="./styles/signup.css"/>
+</head>
+<style>
+  #place::placeholder{
+    font-size: 20px;
+  }
+  #pwd::placeholder{
+    font-size: 20px;
+  }
+
+
+
+</style>
+<body>
+<div class="signup-21D">
+  <div class="signup-div-95q">
+    <img class="log-1-3wu" src="./assets/log-1.png"/>
+    <input type="text" placeholder="Username" id="place" class="uname-Z9Z" required>
+    </input>
+    <input type="password" placeholder="Password" id="pwd" class="auto-group-wrxb-3aX">
+    
+    </input>
+    <input type="email" placeholder="Mail id" id="place" class="mailid-631">
+    </input>
+    <input type="tel" placeholder="Mobile No." id="place" class="ph-no-E9D">
+    </input>
+    <button class="signup-but-AHm">Sign Up</button>
+    <p class="login-nav-F4K">
+      <span class="login-nav-F4K-sub-0">already have an account? </span>
+      <a href="login.html" class="login-nav-F4K-sub-1">login</a>
+    </p>
+
+  </div>
+  <img onclick="view()" class="eye-1-NMu" src="./assets/eye-1.png"/>
+</div>
+</body>
+<script>
+  function view(){
+    var x = document.getElementById("pwd");
+  if (x.type === "password") {
+    x.type = "text";
+  }else{
+    x.type = "password";
+  }
+  }
+</script>

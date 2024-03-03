@@ -1,0 +1,141 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.login-p4o {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.login-p4o .login-wQK {
+  width: 50rem;
+  height: 56.4rem;
+  position: absolute;
+  left: 47rem;
+  top: 21.2rem;
+  border: solid 0.4rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  
+}
+.login-p4o .log-1-FR1 {
+  width: 9.9rem;
+  height: 9.9rem;
+  position: absolute;
+  left: 67rem;
+  top: 26.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 10rem;
+}
+.login-p4o .uname-B3m {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 49.3rem;
+  top: 39.5rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 25px;
+  color: #000000;
+  outline: none;
+}
+.login-p4o .uname-B3m::placeholder{
+  font-size: 20px;
+}
+.login-p4o .pwd-HsV {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 49.3rem;
+  top: 49.5rem;
+  border: solid 0.1rem #ff9900;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 10px;
+  border: 2px solid #ff9900;
+  font-size: 25px;
+  color: #000000;
+  outline: none;
+}
+.login-p4o .pwd-HsV::placeholder{
+  font-size: 20px;
+}
+.login-p4o .login-but-cPy {
+  width: 45.4rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 49.3rem;
+  top: 61.1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9900;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.login-p4o .login-but-cPy:hover{
+  background-color: #ffffff;
+  color: #ff9900;
+  border: solid 0.3rem #ff9900;
+}
+.login-p4o .signup-nav-J1u {
+  width: 23.6rem;
+  height: 2.3rem;
+  position: absolute;
+  left: 59.9rem;
+  top: 71.1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.login-p4o .signup-nav-J1u .signup-nav-J1u-sub-0 {
+}
+.login-p4o .signup-nav-J1u .signup-nav-J1u-sub-1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ff9900;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.login-p4o .eye-1-3No {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 88.5rem;
+  top: 51.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
